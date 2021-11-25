@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Inter Bold";
+    src: url(./fonts/Inter-SemiBold-600.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter normal";
+    src: url(./fonts/Inter-Medium-500.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arial regular";
+    src: url(./fonts/Arial-Regular.ttf);
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper_nav_logo {
+    margin-left: 36px;
+}
+
+.wrapper_baner {
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 60px;
+}
+
+.btn_subscribe {
+    width: 280px;
+    height: 44px;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 120px;
+    background: linear-gradient(296.79deg, #EC418E -1.09%, #EE4881 22.37%, #F66E3C 83.89%);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn_subscribe > a {
+    position: absolute;
+    top: 12px;
+    left: 64px;
+    color: #ffffff;
+    font-family: "Inter normal";
+    font-size: 15px;
+}
+
+.wrapper_partner {
+    margin: 40px 36px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.wrapper_subscription {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.btn_more {
+    position: absolute;
+    margin-top: 148px;
+    margin-left: 35px;
+}
+
+.wrapper_footer {
+    margin-top: 60px;
+    margin-left: 36px;
+    margin-right: 36px;
+    
+}
+
+.respect_content,
+.massege_content {
+    font-family: "Arial regular";
+    font-size: 14px;
+    color: #909499;
+    line-height: 20px;
+}
+
+.respect_content {
+    margin-bottom: 16px;
+}
+
+.massege_content {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.contact > a {
+    text-decoration: none;
+    font-family: "Arial regular";
+    font-size: 14px;
+    color: #909499;
+}
+
+.web {
+    padding-right: 12px;
+}
+
+.email {
+    border-left: 1px solid rgba(93, 95, 97, 0.3);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.phone {
+    border-left: 1px solid rgba(93, 95, 97, 0.3);
+    padding-left: 12px;
+}
+
+.wrapper_footer > p {
+    font-family: "Arial regular";
+    font-size: 14px;
+    color: #909499;
+    padding-top: 12px;
+    padding-bottom: 42px;
+}
+
